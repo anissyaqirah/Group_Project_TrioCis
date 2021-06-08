@@ -57,7 +57,7 @@ Each of the team members prepared 2 web pages for the project as shown in the fo
 |                     |              |                                                                                  |                                               |
 | Icon                | Mastura      |  All icon for the outlet page                                                    |  All icons are resized.                       |
 |                     | 1918378      |
-### ** References **
+### **References**
 - The JQuery Foundation. Accordion Widget. Retrieved 8 Jun 2021 from 
   https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css
 - Font awesome. Icons Retrieved 8 Jun 2021 from 
