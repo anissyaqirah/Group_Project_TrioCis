@@ -53,13 +53,19 @@ Each of the team members prepared 2 web pages for the project as shown in the fo
 |                     |              |                                                                                  |                                               |
 | Carousel            |  Daniel      | Referred at https://www.youtube.com/watch?v=woL0YlCqO64&ab_channel=Webdev        | Change the border radius, padding, and margin |
 |                     |     1917027  |                                                                                  |            for the slider                     |          |                     |              |                                                                                  |                                               |
-|Accordion Widget     |  Mastura     |  Accordion widget (JQueryUI) are used in the About US page.                        Background colours of ui-accordion-header               |                     |   1918378    |                                                                                    
-|                     |              |                                            
-|                     | 
+|Accordion Widget     |  Mastura     |  Accordion widget (JQueryUI) are used in the About US page.                      |  Background colours of ui-accordion-header    |          |                     |   1918378    |                                                                                  |  and ui-accordion- hover                      |
+|                     |              |                                                                                  |                                               |
+| Icon                | Mastura      |  All icon for the outlet page                                                    |  All icons are resized.                       |
+|                     | 1918378      |
+### ** References **
+- The JQuery Foundation. Accordion Widget. Retrieved 8 Jun 2021 from 
+  https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css
+- Font awesome. Icons Retrieved 8 Jun 2021 from 
+  https://fontawesome.com/
+- Owl carousel retrieved 8 Jun 2021 from  
+  https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js
 
-                     |              |                                                                                  |                                       |
-|                                    |          |
-|                                    |                                    |                                  
+
             
 
                                     
