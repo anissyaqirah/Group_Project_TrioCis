@@ -53,8 +53,8 @@ Each of the team members prepared 2 web pages for the project as shown in the fo
 |                     |              |                                                                                  |                                               |
 | Carousel            |  Daniel      | Referred at https://www.youtube.com/watch?v=woL0YlCqO64&ab_channel=Webdev        | Change the border radius, padding, and margin |
 |                     |     1917027  |                                                                                  |            for the slider                     |          |                     |              |                                                                                  |                                               |
-|Accordion Widget     |  Mastura     |  Accordion widget (JQueryUI) are used in the About US page.                      |  Background colours of ui-accordion-header    |          |                     |   1918378    |                                                                                  |  and ui-accordion- hover                      |
-|                     |              |                                                                                  |                                               |
+|Accordion Widget     |  Mastura     |  Accordion widget (JQueryUI) are used in the About US page.                      |  Background colours of ui-accordion-header    |          |                     |              |                                                                                  |  and ui-accordion- hover                      |
+|                     |  1918378     |                                                                                  |                                               |
 | Icon                | Mastura      |  All icon for the outlet page                                                    |  All icons are resized.                       |
 |                     | 1918378      |
 ### **References**
