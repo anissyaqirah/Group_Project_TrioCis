@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="web/trio_cis.png">
+    <script src="bookingjs.js" charset="utf-8"></script>
+
+    </script>
+    <title>triocis</title>
+  </head>
+  <body>
+    <div class="bg">
+      <img class="bg" src="web/bg_lagi.png" alt="">
+
+    </div>
+    <header>
+    <div id="main_menu">
+               <div class="logo_area">
+                   <a href="index.html"><img src="web/trio_cis.png"></a>
+               </div>
+               <div class="inner_main_menu">
+                   <ul id="menu">
+                     <div class="dropdown">
+                       <li><a href="aboutus.html">ABOUT US</a></li>
+                       <div class="drop con">
+                         <a href="outlets.html">Outlet</a>
+                         <a href="faq.html">FAQs</a>
+                       </div>
+                     </div>
+
+                       <li><a href="menu.html">MENU</a></li>
+                       <li><a href="booking.html">booking</a></li>
+                       <li><a href="contact.html">contact</a></li>
+                   </ul>
+               </div>
+      </div>
+    </header>
+
+    <div class="container">   <!-- Start content --> <!-- JANGAN delete -->
+      <div class="headings">
+     <h5><em>CRISPY, JUICY AND FRESH! - THE BEST TASTE EVER WHEN YOU DINE IN</em></h5>
+     <h5><em>BOOK YOUR TABLE NOW!</em></h5>
+       </div>
+
+  <form name="form" action="confirmation.html" onsubmit="return validateForm()" method="post" required>
+    <div class="body1">
+
+    <h3><b>1. CONTACT DETAILS</b></h3>
+    <label for="Name"><h4><em>Name:</em></h4></label>
+    <input type="text" id= "name" name="name" placeholder="Your Name">
+
+    <label for="email"><h4><em>Email:</em></h4></label>
+    <input type="text" id= "email" name="email" placeholder="Your Email">
+
+    <label for="phonenum"><h4><em>Phone:</em></h4></label>
+    <input type="text" id= "phonenum" name="phonenum" placeholder="Your Phone Number">
+
+    </div>
+
+  <div class="body2">
+  <h3><b>2. LOCATION</b></h3>
+    <label for="location"><h4><em>Select location:</em></h4></label>
+
+<select name="location" id="location">
+  <option value="Kulim Central Shopping Mall">Kulim Central Shopping Mall</option>
+  <option value="AEON Mall Shah Alam">AEON Mall Shah Alam</option>
+  <option value="The Mines Shopping Mall">The Mines Shopping Mall</option>
+  <option value="Ipoh Parade">Ipoh Parade</option>
+  <option value="KTCC Mall">KTCC Mall</option>
+  <option value="Toppen Shopping Centre">Toppen Shopping Centre</option>
+  <option value="Pineng Times Square">Pineng Times Square</option>
+  <option value="AEON Taman Maluri Shopping Centre">AEON Taman Maluri Shopping Centre</option>
+</select>
+
+<br><br><br><br><br><br><br><br><br><br><br><h4><b>P.S We only have 9 outlets to choose from!!</b></h4>
+</div>
+
+  <div class="body3">
+    <h3><b>3. SAVE THE DATE!</b></h3>
+    <label for="date"><h4><em>Date:</em></h4></label>
+    <input type="text" id= "date" name="date" placeholder="DAY/MONTH/YEAR"><br><br>
+
+    <label for="time"><h4><em>Time:</em></h4></label>
+    <input type="text" id= "time" name="time" placeholder="00 : 00 am/pm"><br><br>
+
+    <br><br><h4><b>We are open from 06:00 pm - 12:00 am (Tue-Fri & Sun)</b></h4>
+
+  </div>
+
+  <div class="body4">
+    <h3><b>4. NUMBER OF PAX</b></h3>
+    <label for="number"><h4><em>Number of Adult and Children:</em></h4></label>
+    <input type="text" id= "number" name="number" placeholder="Please state the total number"><br><br>
+
+    <label for="feedback"><h4><em>Special Request:</em></h4></label>
+    <textarea name="feedback" rows="5" cols="68" placeholder=></textarea>
+
+  </div>
+
+  <div class="close">
+     <br><br><br><h5><u>We will send you an email link to confirm your reservation</u></h5>
+  </div>
+
+    <button type="submit" name="submit"><strong>SUBMIT</strong></button>
+    </form>
+      <!-- End div --> <!-- JANGAN delete -->
+    </div>
+
+    <footer class="footer">
+      <div class="containers">
+        <div class="rows">
+          <div class="footer-col">
+            <h4>ABOUT US</h4>
+            <ul>
+              <li><a href="aboutus.html">OUR STORY</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>MENU</h4>
+            <ul>
+              <li><a href="#menu.html">FOOD WE SERVE</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>LOCATION</h4>
+            <ul>
+              <li><a href="outlets.html">FIND US</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>FOLLOW US</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/pages/category/Food-Stand/triocis-105384671101085/"><i class="fab fa-facebook-f "></i></a>
+              <a href="#"><i class="fab fa-twitter "></i></a>
+              <a href="https://www.instagram.com/trio.cis/"><i class="fab fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1></h1>
+    </footer>
+
+
+
+
+
+
+  </body>
+</html>

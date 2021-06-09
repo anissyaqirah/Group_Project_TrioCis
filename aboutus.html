@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="aboutoutlet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5394563438.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <link rel="icon" type="image/png" href="web/trio_cis.png">
+    <title>template</title>
+  </head>
+  <body>
+    <div class="bg">
+      <img class="bg" src="web/bg_lagi.png" alt="">
+
+    </div>
+    <header>
+    <div id="main_menu">
+               <div class="logo_area">
+                   <a href="index.html"><img src="web/trio_cis.png"></a>
+               </div>
+               <div class="inner_main_menu">
+                   <ul id="menu">
+                     <div class="dropdown">
+                       <li><a href="aboutus.html">ABOUT US</a></li>
+                       <div class="drop con">
+                         <a href="outlets.html">Outlet</a>
+                         <a href="faq.html">FAQs</a>
+                       </div>
+                     </div>
+
+                       <li><a href="menu.html">MENU</a></li>
+                       <li><a href="booking.html">BOOKING</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+      </div>
+    </header>
+
+
+        <div class="container">   <!-- Start content --> <!-- JANGAN delete -->
+
+
+                <nav id="link">
+                  <h2 id="image"><img src="web/outlet.jpg" width="250" height="250" > </h2> <br>
+                       <a href="outlets.html" >OUR OUTLET</a><br>
+                   <h2 id="image"><img src="web/faq.jpg" width="250" height="250"> </h2>
+                        <a href="faq.html">FAQ</a>
+                </nav>
+
+          <div class="img5">
+            <img src="web/square.jpg" width="200" height="200">
+
+          </div>
+          <div
+            <h2 class="business">
+              <h2>BUSINESS BACKGROUND</h2>
+            <p><strong> TRIO CIS</strong>  is fast food restaurant that was establish since January 2020 by Mr.Arif Daneil and his friends.<br><br> Our restaurant
+             was specialized in fast food that served with three different types of cheese which are Mozarella, Cheddar and Cheese sauce.
+              We choose or name as <strong>TRIO CIS</strong> because of these three perfect combination of cheese.
+            We started as a street seller and it has been scaled widely when the cheese wave hit the market around May 2020. We now have 8 outlet throughtout Malaysia.<br><br>
+             <strong>TRIO CIS</strong> only serve halal food in our outlet. So do not be hesitate to come and try our food!</p><br>
+
+            <button class="accordion"><strong>Our Mission</strong></button>
+            <div class="main2">
+              <p id="texts"><strong> Our mission is to provide an unforgetable experience to all the customer.</p></div>
+
+            <button class="accordion"> <strong>Our Vission</strong></button>
+            <div class="main2">
+              <ul id="texts">
+                <li>We want to improve the quality of the service and of the restaurant efficiency</li>
+                <li>Our goal is to gather our two passion:cuisine and new technology</li>
+              </ul>    </div>
+
+            <button class="accordion"><strong>Join Us!</strong></button>
+            <div class="main2">
+              <p id="texts" > We are always give an opportunity to all people who willing to be part of our company. Just Send your resume at
+                 <a href="mailto:triocis@gmail.com" target="_blank"><p id="email">triocis@gmail.com</p></a></div>
+
+
+              <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script>
+
+
+
+          <!-- End div --> <!-- JANGAN delete -->
+        </div>
+      </div>
+
+
+
+        <footer class="footer">
+          <div class="containers">
+            <div class="rows">
+              <div class="footer-col">
+                <h4>ABOUT US</h4>
+                <ul>
+                  <li><a href="aboutus.html">OUR STORY</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>MENU</h4>
+                <ul>
+                  <li><a href="menu.html">FOOD WE SERVE</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>CONTACT</h4>
+                <ul>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>LOCATION</h4>
+                <ul>
+                  <li><a href="outlets.html">FIND US</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/pages/category/Food-Stand/triocis-105384671101085/"><i class="fab fa-facebook-f "></i></a>
+                  <a href="#"><i class="fab fa-twitter "></i></a>
+                  <a href="https://www.instagram.com/trio.cis/"><i class="fab fa-instagram "></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1></h1>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="faqstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="web/trio_cis.png">
+    <title>About Us - FAQs</title>
+  </head>
+  <body>
+    <div class="bg">
+      <img class="bg" src="web/bg_lagi.png" alt="">
+
+    </div>
+    <header>
+    <div id="main_menu">
+               <div class="logo_area">
+                   <a href="index.html"><img src="web/trio_cis.png"></a>
+               </div>
+               <div class="inner_main_menu">
+                   <ul id="menu">
+                     <div class="dropdown">
+                       <li><a href="">ABOUT US</a></li>
+                       <div class="drop con">
+                         <a href="outlets.html">Outlet</a>
+                         <a href="faq.html">FAQs</a>
+                       </div>
+                     </div>
+
+                       <li><a href="menu.html">MENU</a></li>
+                       <li><a href="booking.html">booking</a></li>
+                       <li><a href="contact.html">contact</a></li>
+                   </ul>
+               </div>
+      </div>
+    </header>
+
+    <div class="container">   <!-- Start content --> <!-- JANGAN delete -->
+      <div class="box">
+        <h2>FAQs</h2>
+          <div class="ac">
+            <button class="accordion">Why "Trio Cis"?</button>
+              <div class="panel">
+                <p>Trio Cis comes from the Italy word trio which means three and 'cis' comes from the famous Malaysian slang which means cheese. Thus, combining those words will come up with 'Three Cheese'. Yes, the three cheese refer to mozarella, cheddar and our special cheese sauce that everyone has been craving for!</p>
+              </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">What makes us special?</button>
+              <div class="panel">
+                <p>Our very own cheese sauce is what makes us special. It is homemade and made with full of love from us.</p>
+              </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">Are you guys halal certified?</button>
+                <div class="panel">
+                  <p>Yes, we are halal certified by Jakim</p>
+                </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">Do I need to make a reservation?</button>
+                <div class="panel">
+                  <p>No, you do not have to, but you may make a reservation if you want to as it would be best to make one beforehand.</p>
+                </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">Where are you guys located?</button>
+                <div class="panel">
+                  <p>As for now, we are currently located at Malaysia</p>
+                </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">Do you guys provide food delivery sevice?</button>
+                <div class="panel">
+                  <p>Yes, and you can get your food delivered by using the Foodpanda or Grab service.</p>
+                </div>
+          </div>
+          <div class="ac">
+            <button class="accordion">Do you guys cater?</button>
+                <div class="panel">
+                  <p>While we would love to be part of your celebration. Unfortunately, we do not offer any catering services but you may place your order and pick it up or get it delivered to you.</p>
+                </div>
+          </div>
+
+      </div>
+
+
+
+      <!-- End div --> <!-- JANGAN delete -->
+    </div>
+
+
+
+    <footer class="footer">
+      <div class="containers">
+        <div class="rows">
+          <div class="footer-col">
+            <h4>ABOUT US</h4>
+            <ul>
+              <li><a href="aboutus.html">OUR STORY</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>MENU</h4>
+            <ul>
+              <li><a href="menu.html">FOOD WE SERVE</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>LOCATION</h4>
+            <ul>
+              <li><a href="outlets.html">FIND US</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>FOLLOW US</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/pages/category/Food-Stand/triocis-105384671101085/"><i class="fab fa-facebook-f "></i></a>
+              <a href="#"><i class="fab fa-twitter "></i></a>
+              <a href="https://www.instagram.com/trio.cis/"><i class="fab fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1></h1>
+    </footer>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+
+    </script>
+
+
+
+
+
+
+  </body>
+</html>
